@@ -1,0 +1,32 @@
+{
+    "tests": [
+        {
+            "name": "Test exercise_1",
+            "score": 1,
+            "max_score": 1,
+            "status": "passed",
+            "output": "Exercise 1 - Passed\n",
+            "visibility": "visible"
+        },
+        {
+            "name": "Test exercise_2",
+            "score": 1,
+            "max_score": 1,
+            "status": "passed",
+            "output": "Exercise 2 - Passed\n",
+            "visibility": "visible"
+        },
+        {
+            "name": "Test exercise_3",
+            "score": 1,
+            "max_score": 1,
+            "status": "passed",
+            "output": "Exercise 3 - Passed\n",
+            "visibility": "visible"
+        }
+    ],
+    "leaderboard": [],
+    "visibility": "visible",
+    "execution_time": "3.51",
+    "score": 3
+}
