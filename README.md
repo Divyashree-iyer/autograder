@@ -2,11 +2,9 @@
 
 This is an example of using Python and the autograding-utils library to implement autograding for a C++ assignment. In this assignment, you can have multiple exercises within a single assignment file, and the communication with the student's code is done exclusively through standard input (std::cin). The student's code will be compiled and executed, and the results will be compared with reference solutions to determine the test case outcomes.
 
-## Assignment Overview
-
-
-
 ## Building and Executing Code
+
+Clone the project and upload its zip file on Gradescope's Programming assignment section.
 
 ## Behind the Scenes Workflow
 
