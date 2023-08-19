@@ -7,6 +7,7 @@ This is an example of using Python and the autograding-utils library to implemen
 Clone the project and upload its zip file on Gradescope's Programming assignment section.
 
 To run the code in local env simply change the path of result.json in run_tests.py.
+
 /autograder/results/results.json -> results/results.json
 
 ## Behind the Scenes Workflow
