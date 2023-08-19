@@ -29,21 +29,21 @@ class TestMetaclass(type):
                     return f.read()
             return None
 
-        def load_settings():
-            settings_yml = load_file('settings.yml')
+        # def load_settings():
+        #     settings_yml = load_file('settings.yml')
 
-            if settings_yml is not None:
-                return yaml.safe_load(settings_yml) or {}
-            else:
-                return {}
+        #     if settings_yml is not None:
+        #         return yaml.safe_load(settings_yml) or {}
+        #     else:
+        #         return {}
 
-        settings = load_settings()
+        # settings = load_settings()
 
         def compare_output(student_output, expected_output):
             return student_output.strip() == expected_output.decode().strip()
 
-        @weight(settings.get('weight', 1))
-        @visibility(settings.get('visibility', 'visible'))
+        # @weight(settings.get('weight', 1))
+        # @visibility(settings.get('visibility', 'visible'))
 
         def compile_and_run(self):
             """ 
